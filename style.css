@@ -1,0 +1,135 @@
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+h1{
+	font: bold 50px verdana, sans-serif;
+}
+h2{
+	font: bold 30px verdana, sans-serif;
+
+}
+h3{
+	font: bold 40x verdana, sans-serif;
+}
+header, section, footer, nav, article, aside, hgroup{
+	display: block;
+}
+section, article{
+	display: block;
+	color: rgb(21, 167, 167);
+}
+
+body{
+	text-align: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+/*
+#modal{
+	background-color: #df7ee4;
+	color: rgb(17, 17, 18);
+	margin: 10%;
+	padding: 10%; 
+}*/
+
+#agrupar{
+	width: 960px;
+	margin: 15px auto;
+	text-align: left;
+}
+
+#menu{
+	background: #abdd21;
+	padding: 5px 15px;
+}
+#menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 14px verdana, sans-serif;
+}
+#menu li:hover{
+	background-color: rgb(140, 22, 219);
+}
+#menu a{
+	text-decoration: none;
+}
+#menu a:hover{
+	color: rgb(255, 255, 255);
+}
+#cabecera{
+	background: linear-gradient(#CCCCCC, #999999);
+	border: 1px solid #7e3e21;
+	padding: 20px;
+}
+#seccion{
+	float: left;
+	width: 660px;
+	margin: 20px;
+}
+#columna{
+	float: left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 20px;
+	background: linear-gradient(#9820c7, #79d6e2);
+}
+#pie{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid #f8d564;
+	background-color: rgb(198, 221, 70);
+}
+/*div{
+	width: 100px;
+	margin: 20px;
+	padding: 10;
+	border: 1px solid #000000;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}*/
+#modal {
+	background: linear-gradient( #a334e9, #6f176f);
+	color: aliceblue;
+	width: 50vw;
+	height: 30vh;
+	transition: all;
+	padding: 60px 60px;
+	margin: 60px 60px;
+	top: 30vh;
+}
+#mostrar-modal{
+	display: none;
+}
+#mostrar-modal + label{
+	margin: auto;
+	padding: 0 1em;
+	cursor: pointer;
+	color: blue;
+}
+#mostrar-modal + label:hover{
+	background: darkblue;
+	color: #fff;
+}
+#mostrar-modal:checked  ~  #modal{
+	top: 40vh;
+}
+#cabecera{
+	background: darkblue;
+	color: #fff;
+}
+article{
+	text-align: left;
+}
+div.imag{
+	border-color: #79d6e2;
+	display: flex;
+    height: 300px;
+    justify-content: center;
+    margin: 50px;
+    box-shadow: 30px 30px 30px rgb(221, 142, 96);
+    border-radius: 10px;
+}
